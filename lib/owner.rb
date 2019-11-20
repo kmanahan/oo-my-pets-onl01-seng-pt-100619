@@ -28,8 +28,6 @@ class Owner
   
   def self.count 
     @@count.map do |owners| 
-      puts owners.new 
-    end 
   end 
     
 end
