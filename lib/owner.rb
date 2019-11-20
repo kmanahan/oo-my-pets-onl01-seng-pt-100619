@@ -31,9 +31,16 @@ class Owner
       owners
     end
   end 
+  @@methods_list.each do |method|
+      remove_method(method)
+    end
+    @@methods_list = []
+  end
   
   def self.reset_all 
-    
+    self.each do |owners|
+      remove_method(owners)
+    end
   end 
     
 end
