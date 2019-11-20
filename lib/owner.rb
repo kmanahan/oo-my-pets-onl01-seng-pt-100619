@@ -25,10 +25,10 @@ class Owner
     @@all 
   end 
   
-  # def self.count 
-  #   self.each do |owner|
-  #     owner
-  #   end
-  #end 
+  def self.count 
+    self.each do |owner|
+      owner
+    end
+  end 
     
 end
