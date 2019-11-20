@@ -27,7 +27,7 @@ class Owner
   end 
   
   def self.count 
-    self.all.select do |owners|
+    self.all.eact do |owners|
       owners
     end
   end 
