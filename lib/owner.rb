@@ -38,7 +38,7 @@ class Owner
   # end
   
   def self.reset_all 
-    self.all.each do |owners|
+    @@all.each do |owners|
       remove_method(owners)
     end
     remove_method = []
