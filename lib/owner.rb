@@ -41,6 +41,7 @@ class Owner
     self.all.each do |owners|
       remove_method(owners)
     end
+    remove_method = []
   end 
     
 end
