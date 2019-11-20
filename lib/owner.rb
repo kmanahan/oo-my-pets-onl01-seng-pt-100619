@@ -29,6 +29,6 @@ class Owner
   #   self.each do |owner|
   #     owner
   #   end
-  end 
+  #end 
     
 end
