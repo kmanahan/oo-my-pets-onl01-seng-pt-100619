@@ -27,7 +27,7 @@ class Owner
   end 
   
   def self.count 
-    @@count.each do |owners| 
+    @@count.map do |owners| 
       puts owners.new 
     end 
   end 
