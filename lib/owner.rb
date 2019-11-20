@@ -28,7 +28,7 @@ class Owner
   
   def self.count 
     self.all.select do |owners|
-      owners
+      owners.name
     end
   end 
     
