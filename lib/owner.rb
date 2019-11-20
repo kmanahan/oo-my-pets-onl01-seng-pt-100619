@@ -29,6 +29,7 @@ class Owner
   def self.count 
     @@count.all.select do |owners|
       owners
+    end
   end 
     
 end
