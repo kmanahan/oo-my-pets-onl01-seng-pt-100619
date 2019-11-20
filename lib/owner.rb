@@ -3,6 +3,7 @@ class Owner
   attr_reader :name, :species
   @@all = []
   
+  
   def initialize(name)
     @name = name 
     @species
@@ -25,10 +26,22 @@ class Owner
     @@all 
   end 
   
-  # def self.count 
-  #   self.each do |owner|
-  #     owner
+  def self.count 
+    self.all.each.count do |owners|
+      owners
+    end
+  end 
+  # @@methods_list.each do |method|
+  #     remove_method(method)
   #   end
+  #   @@methods_list = []
+  # end
+  
+  def self.reset_all 
+    @@all.each do |owners|
+      remove_method(owners)
+    end
+    remove_method = []
   end 
     
 end
